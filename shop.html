@@ -1,37 +1,50 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <title>ocaize.</title>
-    <link rel="stylesheet" href="static/style.css">
-    <link rel="icon" type="image/png" href="static/favicon.png">
-  </head>
-  <body>
-    <header style="z-index: 100000000000000;">
-      <h1>ocaize.</h1>
-      <nav class="navright">
-        <ul>
-          <li class="scroll-to-section"><a href="https://ocaize.vercel.app#home" class="active">Home</a></li>
-          <li><a href="./shop.html" class="active">Shop</a></li>
-          <li class="scroll-to-section"><a href="https://ocaize.vercel.app#about" class="active">About</a></li>
-          <li><a href="https://forms.gle/yAJebnUcEqDxdU9D7" class="active">Contact</a></li>
-        </ul>
-      </nav>
-      <a href="#!/~/cart"><img src="static/cart.png"></a>
-    </header>
-    <div style="margin-top:100px;">
-      <div id="shop">
-          <div id="my-search-87063259" class="searchsmall"></div>
-          <div>
-              <script data-cfasync="false" type="text/javascript" src="https://app.ecwid.com/script.js?87063259&data_platform=code&data_date=2023-05-03" charset="utf-8"></script>
-              <script type="text/javascript"> xSearch("id=my-search-87063259"); </script>
-          </div>
-          <div id="my-store-87063259"></div>
-          <div>
-              <script data-cfasync="false" type="text/javascript" src="https://app.ecwid.com/script.js?87063259&data_platform=code&data_date=2023-05-02" charset="utf-8"></script><script type="text/javascript"> xProductBrowser("categoriesPerRow=3","views=grid(20,3) list(60) table(60)","categoryView=grid","searchView=list","id=my-store-87063259");</script>
-          </div>
-      </div>
-    </div>
-    <section class="banner" style="margin-top: 00px; height: 200px; border-color: rgba(255, 255, 255, 0);">
-      <button type="button" class="button" style="scale: 150%; border-color: rgba(255, 255, 255, 0);">Shop More</button>
-    </section>
+<head>
+  <title>ocaize.</title>
+<style>
+
+  .image-container img:hover {
+    content: url('./static/Tshirtshover.png');
+  }
+
+  .image-container2 img:hover {
+    content: url('./static/Hoodieshover.png');
+  }
+
+  .image-container3 img:hover {
+    content: url('./static/Originalshover.png');
+  }
+</style>
+<link rel="stylesheet" href="static/style.css">
+<link rel="icon" type="image/png" href="static/favicon.png">
+</head>
+<body>
+<header style="z-index: 100000000000000;">
+  <h1>ocaize.</h1>
+  <nav class="navright">
+    <ul>
+      <li class="scroll-to-section"><a href="https://ocaize.vercel.app#home" class="active">Home</a></li>
+      <li><a href="./shop.html" class="active">Shop</a></li>
+      <li class="scroll-to-section"><a href="https://ocaize.vercel.app#about" class="active">About</a></li>
+      <li><a href="https://forms.gle/yAJebnUcEqDxdU9D7" class="active">Contact</a></li>
+    </ul>
+  </nav>
+  <a href="#!/~/cart"><img src="static/cart.png"></a>
+</header>
+<section style="margin-top:100px; font-size: 40px; color:rgb(0, 0, 0, 0.7); margin-left: 20px;">
+  <h2>categories</h2>
+</section>
+<a href="./T-Shirts.html" class="image-container">
+  <img src="./static/Tshirts.png" style="margin-top: 100px; margin-left: 5vw;">
+</a>
+
+<a href="./hoodies.html" class="image-container2">
+  <img src="./static/Hoodies.png" style="margin-top: 100px; margin-left: 10vw;">
+</a>
+
+<a href="./originals.html" class="image-container3">
+  <img src="./static/Originals.png" style="margin-top: 100px; margin-left: 10vw;">
+</a>
 </body>
+</html>
